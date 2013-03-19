@@ -1,0 +1,12 @@
+module id(clk, rst);
+  
+  input clk, rst;
+  
+  rf_bypass rf(
+           // Outputs
+           read1data, read2data, err,
+           // Inputs
+           clk, rst, read1regsel, read2regsel, writeregsel, writedata, write
+           );
+  
+endmodule
