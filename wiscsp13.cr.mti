@@ -93,7 +93,14 @@ Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2
 -- Compiling module mem
 ** Error: C:/Users/Adam/Documents/GitHub/wiscsp13/mem.v(7): near ".": syntax error, unexpected '.', expecting ')'
 
-} {4.0 5.0} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/rf.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/rf.v
+} {4.0 5.0} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/ext_bench.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/ext_bench.v
+Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module ext_bench
+
+Top level modules:
+	ext_bench
+
+} {} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/rf.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/rf.v
 Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
 -- Compiling module rf
 
