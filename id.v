@@ -3,6 +3,8 @@ module id(
           clk, rst, instr, write_data,
           //Output
           error,
+          //Fetch Control
+          jalr, brj, fimm, register,
           //Datapath Control
           sub, src0, src1, aluctl, setctl,
           //Memory Control
@@ -24,6 +26,9 @@ module id(
   
   //proc outputs
   output error;
+  //infetch outputs
+  output jalr, brj;
+  output [15:0] fimm, register;
   //ex outputs
   output sub;
   output [1:0] setctl;
@@ -49,6 +54,8 @@ module id(
   wire immregsel;
   //Decoder -> Src2 Inv
   wire src2inv;
+  //Decoder -> Branch/Jump
+  wire beqz, bnez, bltz, bgez;
   //Register File -> Reg/Imm Mux
   wire [15:0] rt;
   //Register File -> Inverter
@@ -61,6 +68,8 @@ module id(
   wire extErr;
   //Reg/Imm Mux -> Inv
   wire [15:0] src2i;
+  //Flags -> Branch/Jump
+  wire zero, notzero, neg, posz;
   
   
   rf_bypass rf(
@@ -82,11 +91,17 @@ module id(
             //Output
             .Out(src2i)
             );
+  flags branchflags(
+            //Input
+            .in(rs),
+            //Output
+            .zero(zero), .notzero(notzero), .neg(neg), .posz(posz)
+            );
             
   assign data_in = rt;
   
   //Invert outputs if necessary
   assign src0 = sub ? ~rs : rs;
   assign src1 = src2inv ? ~src2i : src2i;
-  
+  assign fimm = imm;
 endmodule
