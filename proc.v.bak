@@ -76,7 +76,7 @@ module proc (/*AUTOARG*/
               //Output
               .error(derr),
               //Fetch Control
-              .pcregsel(pcregsel), .brj(brj), halt(halt), .fimm(fimm), .register(register),
+              .pcregsel(pcregsel), .brj(brj), .halt(halt), .fimm(fimm), .register(register),
               //Execute Control
               .sub(sub), .src1(src1), .src2(src2), .aluctl(aluctl),
               .seq(seq), .slt(slt), .sle(sle), .sco(sco),
@@ -101,7 +101,7 @@ module proc (/*AUTOARG*/
               );
    wb writeback(
               //Inputs
-              .memalusel(memalusel), .memin(memout), .aluin(aluout),
+              .memalusel(memalusel), .memin(memout), .aluin(exout),
               //Outputs
               .out(wbout)
               );

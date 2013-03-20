@@ -72,7 +72,7 @@ module proc (/*AUTOARG*/
                 );
    id decode(
               //Input
-              .clk(clk), .rst(rst), .instr(instr), .pc2(pc2), .wbout(write_data),
+              .clk(clk), .rst(rst), .instr(instr), .pc2(pc2), .write_data(wbout),
               //Output
               .error(derr),
               //Fetch Control
@@ -101,7 +101,7 @@ module proc (/*AUTOARG*/
               );
    wb writeback(
               //Inputs
-              .memalusel(memalusel), .memin(memout), .aluin(aluout),
+              .memalusel(memalusel), .memin(memout), .aluin(exout),
               //Outputs
               .out(wbout)
               );
