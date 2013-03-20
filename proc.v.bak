@@ -63,16 +63,16 @@ module proc (/*AUTOARG*/
    ///////////////////
    wire [15:0] wbout;
    
-   infetch fetch(
+   infetch fetch0(
                 //Input
                 .clk(clk), .rst(rst), .jumprsel(pcregsel), .brjsel(brj), .halt(halt),
                 .imm(fimm), .register(register),
                 //Output
                 .err(ferr), .pc2(pc2), .instr(instr)
                 );
-   id decode(
+   id decode0(
               //Input
-              .clk(clk), .rst(rst), .instr(instr), .pc2(pc2), .wbout(write_data),
+              .clk(clk), .rst(rst), .instr(instr), .pc2(pc2), .write_data(wbout),
               //Output
               .error(derr),
               //Fetch Control
@@ -92,7 +92,7 @@ module proc (/*AUTOARG*/
               //Outputs
               .Out(exout)
               );
-   mem memfetch(
+   mem memmory0(
               //Inputs
               .clk(clk), .rst(rst), .data_in(data_in), .addr(exout),
               .enable(enable), .wr(wr), .createdump(createdump),

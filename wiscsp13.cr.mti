@@ -40,6 +40,13 @@ Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2
 Top level modules:
 	rotate_left8
 
+} {} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/inc_2.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/inc_2.v
+Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module inc_2
+
+Top level modules:
+	inc_2
+
 } {} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/right_logical4.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/right_logical4.v
 Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
 -- Compiling module right_logical4
@@ -47,19 +54,19 @@ Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2
 Top level modules:
 	right_logical4
 
-} {} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/id.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/id.v
-Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
--- Compiling module id
-
-Top level modules:
-	id
-
 } {} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/right_rotate1.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/right_rotate1.v
 Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
 -- Compiling module right_rotate1
 
 Top level modules:
 	right_rotate1
+
+} {} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/id.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/id.v
+Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module id
+
+Top level modules:
+	id
 
 } {} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/rf.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/rf.v
 Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
@@ -134,6 +141,9 @@ Top level modules:
 } {} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/inc2b.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/inc2b.v
 Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
 
+} {} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/infetch_hier_bench.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/infetch_hier_bench.v
+Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
+
 } {} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/right_logical1.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/right_logical1.v
 Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
 -- Compiling module right_logical1
@@ -162,12 +172,26 @@ Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2
 Top level modules:
 	right_rotate2
 
+} {} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/infetch_hier.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/infetch_hier.v
+Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module infetch_hier
+
+Top level modules:
+	infetch_hier
+
 } {} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/shift_left.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/shift_left.v
 Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
 -- Compiling module shift_left
 
 Top level modules:
 	shift_left
+
+} {} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/fullAdder_bench.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/fullAdder_bench.v
+Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module fullAdder_bench
+
+Top level modules:
+	fullAdder_bench
 
 } {} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/shift_left2.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/shift_left2.v
 Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
@@ -280,6 +304,13 @@ Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2
 
 Top level modules:
 	dff
+
+} {} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/infetch.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/infetch.v
+Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module infetch
+
+Top level modules:
+	infetch
 
 } {} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/proc_hier_bench.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/proc_hier_bench.v
 Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013

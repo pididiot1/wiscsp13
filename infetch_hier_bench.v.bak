@@ -1,0 +1,6 @@
+module infetch_hier_bench();
+  
+  infetch_hier fetchDUT();
+  
+  
+endmodule

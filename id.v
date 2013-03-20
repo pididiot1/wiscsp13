@@ -96,7 +96,7 @@ module id(
             //wboutputs
             .memalusel(memalusel)
             );
-  rf_bypass rf(
+  rf_bypass regFile0(
            // Outputs
            .read1data(rs), .read2data(rt), .err(rfErr),
            // Inputs

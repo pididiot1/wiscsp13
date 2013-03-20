@@ -133,7 +133,7 @@ module id(
             .j(j), .jr(jr), .jal(jal), .jalr(jalr),
             .rs(rs),
             //Output
-            .writedatasel(writedatasel), jumprsel, brjsel
+            .writedatasel(writedatasel), .jumprsel(pcregsel), .brjsel(brj)
             );
             
   assign data_in = rt;
