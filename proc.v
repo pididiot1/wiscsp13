@@ -24,46 +24,87 @@ module proc (/*AUTOARG*/
    
    /* your code here */
    
+   //Error signals
    wire ferr, derr;
+   
+   ////////////////
+   //Fetch Outputs
+   ////////////////
+   wire [15:0] pc2, instr;
+   
+   ////////////////
+   //Decode Outputs
+   ////////////////
+   //Fetch Control
+   wire pcregsel, brj, halt;
+   wire [15:0] fimm, register;
+   //Execute Control
+   wire sub, seq, slt, sle, sco;
+   wire [3:0] aluctl;
+   wire [15:0] src1, src2;
+   //Memory Control
+   wire enable, wr, createdump;
+   wire [15:0] data_in;
+   //Writeback Control
+   wire memalusel;
+   
+   /////////////////
+   //Execute Outputs
+   /////////////////
+   wire [15:0] exout;
+   
+   //////////////////
+   //Memfetch Outputs
+   //////////////////
+   wire [15:0] memout;
+   
+   ///////////////////
+   //Writeback Outputs
+   ///////////////////
+   wire [15:0] wbout;
    
    infetch fetch(
                 //Input
-                .clk(clk), .rst(rst), jumprsel, brjsel, halt, imm, register,
+                .clk(clk), .rst(rst), .jumprsel(pcregsel), .brjsel(brj), .halt(halt),
+                .imm(fimm), .register(register),
                 //Output
-                .err(ferr), pc2, instr
+                .err(ferr), .pc2(pc2), .instr(instr)
                 );
    id decode(
               //Input
-              .clk(clk), .rst(rst), instr, pc2, write_data,
+              .clk(clk), .rst(rst), .instr(instr), .pc2(pc2), .wbout(write_data),
               //Output
               .error(derr),
               //Fetch Control
-              pcregsel, brj, halt, fimm, register,
-              //Datapath Control
-              sub, src1, src2, aluctl, seq, slt, sle, sco,
+              .pcregsel(pcregsel), .brj(brj), .halt(halt), .fimm(fimm), .register(register),
+              //Execute Control
+              .sub(sub), .src1(src1), .src2(src2), .aluctl(aluctl),
+              .seq(seq), .slt(slt), .sle(sle), .sco(sco),
               //Memory Control
-              enable, wr, createdump, data_in,
+              .enable(enable), .wr(wr), .createdump(createdump), .data_in(data_in),
               //Writeback Control
-              memalusel
+              .memalusel(memalusel)
               );
    ex execute(
               //Inputs
-              A, B, aluOp, Cin, setEq, setLt, setLe, setCo,
+              .A(src1), .B(src2), .aluOp(aluctl), .Cin(sub),
+              .setEq(seq), .setLt(slt), .setLe(sle), .setCo(sco),
               //Outputs
-              Out
+              .Out(exout)
               );
    mem memfetch(
               //Inputs
-              .clk(clk), .rst(rst), data_in, addr, enable, wr, createdump,
+              .clk(clk), .rst(rst), .data_in(data_in), .addr(exout),
+              .enable(enable), .wr(wr), .createdump(createdump),
               //Outputs
-              data_out
+              .data_out(memout)
               );
    wb writeback(
               //Inputs
-              memalusel, memin, aluin,
+              .memalusel(memalusel), .memin(memout), .aluin(aluout),
               //Outputs
-              out
+              .out(wbout)
               );
-   
+   assign err = ferr | derr;
 endmodule // proc
 // DUMMY LINE FOR REV CONTROL :0:

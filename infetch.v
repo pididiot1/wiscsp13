@@ -28,7 +28,18 @@ module infetch(
                 .data_out(instr)
                 );
   //16 Bit Full Adder
+  claAdder adder(
+                //Input
+                .A(imm), .B(pcToMod), .Cin(1'b0),
+                //Outputs
+                .Sum(modPC), .G(), .P(), .Cout(), .Cprev());
   //+2 Incrememtor
+  inc_2 incrementor(
+                //Input
+                .A(currPC),
+                //Output
+                .sum(nextPC)
+                );
   //PC+2/Reg Mux
   sixteenmux2_1 jumpr(
                 //Input

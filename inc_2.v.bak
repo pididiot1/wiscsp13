@@ -2,7 +2,7 @@ module inc_2(
               //Input
               A,              
               //Output
-              sum
+              sum,
               );
     
     output [15:0] sum;

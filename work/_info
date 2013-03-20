@@ -7,503 +7,1066 @@ Z0 dC:\Users\Adam\School\552\project
 !i10d 8192
 !i10e 25
 !i10f 100
-vbrjlogic
-Z1 !s110 1363759627
-Z2 !s100 MFbGd:CWME=<QC7kg3D6X3
-Z3 Im[FQOl4^@GJiSiiEl1TWd1
-Z4 V`JN@9S9cnhjKRR_L]QIcM3
-Z5 dC:\Users\Adam\Documents\GitHub\wiscsp13
-Z6 w1363759304
-Z7 8C:/Users/Adam/Documents/GitHub/wiscsp13/brjlogic.v
-Z8 FC:/Users/Adam/Documents/GitHub/wiscsp13/brjlogic.v
+valu
+Z1 !s110 1363761517
+Z2 I[E8Qjf`2FY^b<S`]zc`EU1
+Z3 V`JN@9S9cnhjKRR_L]QIcM3
+Z4 dC:\Users\Adam\Documents\GitHub\wiscsp13
+Z5 w1363751270
+Z6 8C:/Users/Adam/Documents/GitHub/wiscsp13/alu.v
+Z7 FC:/Users/Adam/Documents/GitHub/wiscsp13/alu.v
 L0 1
-Z9 OP;L;10.2;57
+Z8 OP;L;10.2;57
 r1
 31
-Z10 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/brjlogic.v|
-Z11 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -O0
-Z12 !s108 1363759627.716000
-Z13 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/brjlogic.v|
+Z9 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -O0
+Z10 !s100 E_6d14RTPJZ6[hI_6gTz81
+Z11 !s108 1363761517.523000
+Z12 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/alu.v|
+Z13 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/alu.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vbrjlogic
+R1
+Z14 Id?VlSk:oacEHlnQE3Ya_n1
+R3
+R4
+Z15 w1363760040
+Z16 8C:/Users/Adam/Documents/GitHub/wiscsp13/brjlogic.v
+Z17 FC:/Users/Adam/Documents/GitHub/wiscsp13/brjlogic.v
+L0 1
+R8
+r1
+31
+Z18 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/brjlogic.v|
+R9
+Z19 !s100 clm3KZ^aYl@`fDQ`b_;]>0
+Z20 !s108 1363761517.429000
+Z21 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/brjlogic.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vclaAdder
+R1
+Z22 I3indmGk7aVhJ@=6CcgTk63
+R3
+R4
+Z23 w1361306758
+Z24 8C:/Users/Adam/Documents/GitHub/wiscsp13/claAdder.v
+Z25 FC:/Users/Adam/Documents/GitHub/wiscsp13/claAdder.v
+L0 1
+R8
+r1
+31
+R9
+Z26 ncla@adder
+Z27 !s100 K2`eAfVmH?Hj:dki3T=CD1
+Z28 !s108 1363761517.585000
+Z29 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/claAdder.v|
+Z30 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/claAdder.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vclkrst
-Z14 IR5z:[8DLzI_z8>SGmS2Jm3
+Z31 !s110 1363761516
+Z32 !s100 8fzdDdHGFgK4C?2g2<MPV3
+Z33 IR5z:[8DLzI_z8>SGmS2Jm3
+R3
 R4
-R5
-Z15 w1363759704
-Z16 8C:/Users/Adam/Documents/GitHub/wiscsp13/clkrst.v
-Z17 FC:/Users/Adam/Documents/GitHub/wiscsp13/clkrst.v
+Z34 w1363759704
+Z35 8C:/Users/Adam/Documents/GitHub/wiscsp13/clkrst.v
+Z36 FC:/Users/Adam/Documents/GitHub/wiscsp13/clkrst.v
 L0 12
-R9
+R8
 r1
 31
-Z18 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/clkrst.v|
-R11
-Z19 !s110 1363759707
+Z37 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/clkrst.v|
+R9
+Z38 !s108 1363761516.155000
+Z39 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/clkrst.v|
 !i10b 1
-Z20 !s100 8fzdDdHGFgK4C?2g2<MPV3
 !s85 0
-Z21 !s108 1363759707.373000
-Z22 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/clkrst.v|
 !s101 -O0
 vdec8
-Z23 !s110 1363759626
-Z24 !s100 49z?aETMbS60`dcM6?^li3
-Z25 INAUoIR]oC:N7U1P7DPgkJ3
+R31
+Z40 !s100 49z?aETMbS60`dcM6?^li3
+Z41 INAUoIR]oC:N7U1P7DPgkJ3
+R3
 R4
-R5
-Z26 w1363554651
-Z27 8C:/Users/Adam/Documents/GitHub/wiscsp13/dec8.v
-Z28 FC:/Users/Adam/Documents/GitHub/wiscsp13/dec8.v
+Z42 w1363554651
+Z43 8C:/Users/Adam/Documents/GitHub/wiscsp13/dec8.v
+Z44 FC:/Users/Adam/Documents/GitHub/wiscsp13/dec8.v
 L0 1
-R9
+R8
 r1
 31
-Z29 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/dec8.v|
-R11
-Z30 !s108 1363759626.583000
-Z31 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/dec8.v|
+Z45 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/dec8.v|
+R9
+Z46 !s108 1363761516.456000
+Z47 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/dec8.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vdff
-R23
-Z32 !s100 d^gm]f?MPJ6f]9>RDT;Dl1
-Z33 I;jO38Z[3D6[YjD[PnUjni1
+R31
+Z48 !s100 d^gm]f?MPJ6f]9>RDT;Dl1
+Z49 I;jO38Z[3D6[YjD[PnUjni1
+R3
 R4
-R5
-Z34 w1363759529
-Z35 8C:/Users/Adam/Documents/GitHub/wiscsp13/dff.v
-Z36 FC:/Users/Adam/Documents/GitHub/wiscsp13/dff.v
+Z50 w1363759529
+Z51 8C:/Users/Adam/Documents/GitHub/wiscsp13/dff.v
+Z52 FC:/Users/Adam/Documents/GitHub/wiscsp13/dff.v
 L0 5
-R9
+R8
 r1
 31
-Z37 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/dff.v|
-R11
-Z38 !s108 1363759626.198000
-Z39 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/dff.v|
+Z53 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/dff.v|
+R9
+Z54 !s108 1363761516.091000
+Z55 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/dff.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vex
 R1
-Z40 !s100 [GGACCSUBkLk^V6eJzX>Y0
-Z41 IGJRj7?mHk2i1P8`c1:13g0
+Z56 IFLUX9bYP7CW=@?1SdHc<o3
+R3
 R4
-R5
-Z42 w1363677533
-Z43 8C:/Users/Adam/Documents/GitHub/wiscsp13/ex.v
-Z44 FC:/Users/Adam/Documents/GitHub/wiscsp13/ex.v
+Z57 w1363760246
+Z58 8C:/Users/Adam/Documents/GitHub/wiscsp13/ex.v
+Z59 FC:/Users/Adam/Documents/GitHub/wiscsp13/ex.v
 L0 1
-R9
+R8
 r1
 31
-Z45 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/ex.v|
-R11
-Z46 !s108 1363759627.171000
-Z47 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/ex.v|
+Z60 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/ex.v|
+R9
+Z61 !s100 c5j2JhJ<jHJdiDz>fzz^`3
+Z62 !s108 1363761517.721000
+Z63 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/ex.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vext
 R1
-Z48 !s100 MEzkBQ`ITWiYQ8iQ1g0EH3
-Z49 IFhEHSVMei<N=O4FC0RKi;3
+Z64 !s100 MEzkBQ`ITWiYQ8iQ1g0EH3
+Z65 IFhEHSVMei<N=O4FC0RKi;3
+R3
 R4
-R5
-Z50 w1363679932
-Z51 8C:/Users/Adam/Documents/GitHub/wiscsp13/ext.v
-Z52 FC:/Users/Adam/Documents/GitHub/wiscsp13/ext.v
+Z66 w1363679932
+Z67 8C:/Users/Adam/Documents/GitHub/wiscsp13/ext.v
+Z68 FC:/Users/Adam/Documents/GitHub/wiscsp13/ext.v
 L0 12
-R9
+R8
 r1
 31
-Z53 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/ext.v|
-R11
-Z54 !s108 1363759627.357000
-Z55 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/ext.v|
+Z69 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/ext.v|
+R9
+Z70 !s108 1363761517.137000
+Z71 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/ext.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vext_bench
 R1
-Z56 !s100 ;X6SHV@N_gjSWIPOTJXJ91
-Z57 Ii>So?b`DQ_^DOEUF]<JnO1
+Z72 !s100 ;X6SHV@N_gjSWIPOTJXJ91
+Z73 Ii>So?b`DQ_^DOEUF]<JnO1
+R3
 R4
-R5
-Z58 w1363680412
-Z59 8C:/Users/Adam/Documents/GitHub/wiscsp13/ext_bench.v
-Z60 FC:/Users/Adam/Documents/GitHub/wiscsp13/ext_bench.v
+Z74 w1363680412
+Z75 8C:/Users/Adam/Documents/GitHub/wiscsp13/ext_bench.v
+Z76 FC:/Users/Adam/Documents/GitHub/wiscsp13/ext_bench.v
 L0 1
-R9
+R8
 r1
 31
-Z61 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/ext_bench.v|
-R11
-Z62 !s108 1363759627.418000
-Z63 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/ext_bench.v|
+Z77 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/ext_bench.v|
+R9
+Z78 !s108 1363761517.199000
+Z79 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/ext_bench.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vflags
 R1
-Z64 !s100 Df?d2mUW6Mflm5?mgL22g3
-Z65 IGFjclF]lFncV_ADoXeOHA1
+Z80 INAN3Yi==>fZ^[Zz=N4UH=1
+R3
 R4
-R5
-Z66 w1363737585
-Z67 8C:/Users/Adam/Documents/GitHub/wiscsp13/flags.v
-Z68 FC:/Users/Adam/Documents/GitHub/wiscsp13/flags.v
+Z81 w1363750370
+Z82 8C:/Users/Adam/Documents/GitHub/wiscsp13/flags.v
+Z83 FC:/Users/Adam/Documents/GitHub/wiscsp13/flags.v
 L0 1
-R9
+R8
 r1
 31
-Z69 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/flags.v|
-R11
-Z70 !s108 1363759627.591000
-Z71 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/flags.v|
+Z84 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/flags.v|
+R9
+Z85 !s100 ^[=BDYNSVNOC0zGEJFRjR3
+Z86 !s108 1363761517.660000
+Z87 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/flags.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vfullAdder
+R1
+Z88 IHbF4=Ik]F9mNl;ooZ<_hL1
+R3
+R4
+Z89 w1361299542
+Z90 8C:/Users/Adam/Documents/GitHub/wiscsp13/fullAdder.v
+Z91 FC:/Users/Adam/Documents/GitHub/wiscsp13/fullAdder.v
+L0 1
+R8
+r1
+31
+R9
+Z92 nfull@adder
+Z93 !s100 =2Sc0nAd=^?O5]>i1BS_b1
+Z94 !s108 1363761517.782000
+Z95 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/fullAdder.v|
+Z96 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/fullAdder.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vhalfAdder
+R1
+Z97 IG07X2[izj^fc_O5YJzJz<2
+R3
+R4
+Z98 w1361299384
+Z99 8C:/Users/Adam/Documents/GitHub/wiscsp13/halfAdder.v
+Z100 FC:/Users/Adam/Documents/GitHub/wiscsp13/halfAdder.v
+L0 1
+R8
+r1
+31
+R9
+Z101 nhalf@adder
+Z102 !s100 8GgfHj[jM[>UoVBXVS8C13
+Z103 !s108 1363761517.844000
+Z104 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/halfAdder.v|
+Z105 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/halfAdder.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vid
-R1
-Z72 !s100 bgM9C=UMj0S>g8NnJXmlO0
-Z73 ISZ88TgP0^F]>I]MLfm1TK3
+R31
+Z106 !s100 bgM9C=UMj0S>g8NnJXmlO0
+Z107 ISZ88TgP0^F]>I]MLfm1TK3
+R3
 R4
-R5
-Z74 w1363759476
-Z75 8C:/Users/Adam/Documents/GitHub/wiscsp13/id.v
-Z76 FC:/Users/Adam/Documents/GitHub/wiscsp13/id.v
+Z108 w1363759476
+Z109 8C:/Users/Adam/Documents/GitHub/wiscsp13/id.v
+Z110 FC:/Users/Adam/Documents/GitHub/wiscsp13/id.v
 L0 1
-R9
+R8
 r1
 31
-Z77 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/id.v|
-R11
-Z78 !s108 1363759627.107000
-Z79 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/id.v|
+Z111 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/id.v|
+R9
+Z112 !s108 1363761516.949000
+Z113 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/id.v|
 !i10b 1
 !s85 0
 !s101 -O0
 videcoder
 R1
-Z80 !s100 =HC2aBP@TPG3:MNVolF2A1
-Z81 IbJ<aaRW8YLo1EO[MgaOOI1
+Z114 !s100 =HC2aBP@TPG3:MNVolF2A1
+Z115 IbJ<aaRW8YLo1EO[MgaOOI1
+R3
 R4
-R5
-Z82 w1363757702
-Z83 8C:/Users/Adam/Documents/GitHub/wiscsp13/idecoder.v
-Z84 FC:/Users/Adam/Documents/GitHub/wiscsp13/idecoder.v
+Z116 w1363757702
+Z117 8C:/Users/Adam/Documents/GitHub/wiscsp13/idecoder.v
+Z118 FC:/Users/Adam/Documents/GitHub/wiscsp13/idecoder.v
 L0 1
-R9
+R8
 r1
 31
-Z85 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/idecoder.v|
-R11
-Z86 !s108 1363759627.651000
-Z87 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/idecoder.v|
+Z119 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/idecoder.v|
+R9
+Z120 !s108 1363761517.363000
+Z121 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/idecoder.v|
 !i10b 1
 !s85 0
+!s101 -O0
+vinc_2
+Z122 Ib<fm@^UWJA9DOCTL];2oV1
+R3
+R4
+Z123 w1363761930
+Z124 8C:/Users/Adam/Documents/GitHub/wiscsp13/inc_2.v
+Z125 FC:/Users/Adam/Documents/GitHub/wiscsp13/inc_2.v
+L0 1
+R8
+r1
+31
+Z126 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/inc_2.v|
+R9
+Z127 !s110 1363761975
+!i10b 1
+Z128 !s100 TioD94:;G9=jS3@KaQY_A3
+!s85 0
+Z129 !s108 1363761975.732000
+Z130 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/inc_2.v|
 !s101 -O0
 vinfetch
-R23
-Z88 !s100 ?BAb]46ZHoLU4[Y:GXA4?0
-Z89 I2LHZKB2UFmL:Nk:N<AE^f0
-R4
-R5
-Z90 w1363745936
-Z91 8C:/Users/Adam/Documents/GitHub/wiscsp13/infetch.v
-Z92 FC:/Users/Adam/Documents/GitHub/wiscsp13/infetch.v
-L0 1
-R9
-r1
-31
-Z93 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/infetch.v|
-R11
-Z94 !s108 1363759626.330000
-Z95 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/infetch.v|
+!s110 1363762006
 !i10b 1
-!s85 0
-!s101 -O0
-vmem
-R1
-Z96 !s100 5X6R?g]PJ^GiISnH6dOOa0
-Z97 Igj80HNa:]2oD5<M`[;X]Y2
+!s100 cj>I3OYd?[gBd0mze0XBS3
+IS=DeHMFL@oeBS1e]I2I[K1
+R3
 R4
-R5
-Z98 w1363711419
-Z99 8C:/Users/Adam/Documents/GitHub/wiscsp13/mem.v
-Z100 FC:/Users/Adam/Documents/GitHub/wiscsp13/mem.v
+w1363762000
+Z131 8C:/Users/Adam/Documents/GitHub/wiscsp13/infetch.v
+Z132 FC:/Users/Adam/Documents/GitHub/wiscsp13/infetch.v
 L0 1
+R8
+r1
+!s85 0
+31
+!s108 1363762006.425000
+!s107 C:/Users/Adam/Documents/GitHub/wiscsp13/infetch.v|
+Z133 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/infetch.v|
+!s101 -O0
 R9
+vmem
+Z134 InJAlTQi<F<@@oC>0bMnT@2
+R3
+R4
+Z135 w1363760334
+Z136 8C:/Users/Adam/Documents/GitHub/wiscsp13/mem.v
+Z137 FC:/Users/Adam/Documents/GitHub/wiscsp13/mem.v
+L0 1
+R8
 r1
 31
-Z101 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/mem.v|
-R11
-Z102 !s108 1363759627.232000
-Z103 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/mem.v|
+Z138 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/mem.v|
+R9
+R1
+Z139 !s100 Sbm;F[4MOVacf8efb>Il43
+Z140 !s108 1363761517.011000
+Z141 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/mem.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vmemory2c
-Z104 !s100 0HS@a3jHEALSk_Lz]7U0]0
-Z105 I6W14`5FgEI:M=BE`hTfNb0
+Z142 !s100 0HS@a3jHEALSk_Lz]7U0]0
+Z143 I6W14`5FgEI:M=BE`hTfNb0
+R3
 R4
-R5
-Z106 w1363676551
-Z107 8C:/Users/Adam/Documents/GitHub/wiscsp13/memory2c.v
-Z108 FC:/Users/Adam/Documents/GitHub/wiscsp13/memory2c.v
+Z144 w1363676551
+Z145 8C:/Users/Adam/Documents/GitHub/wiscsp13/memory2c.v
+Z146 FC:/Users/Adam/Documents/GitHub/wiscsp13/memory2c.v
 L0 35
-R9
+R8
 r1
 31
-Z109 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/memory2c.v|
-R11
-R23
-Z110 !s108 1363759626.134000
-Z111 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/memory2c.v|
+Z147 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/memory2c.v|
+R9
+R31
+Z148 !s108 1363761515.996000
+Z149 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/memory2c.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vmux2_1
-R23
-Z112 !s100 hF>_B?b:4bSVL97lfiSVI3
-Z113 I[3h=SfR0T<JD6>i=Z<KbC3
+R31
+Z150 !s100 hF>_B?b:4bSVL97lfiSVI3
+Z151 I[3h=SfR0T<JD6>i=Z<KbC3
+R3
 R4
-R5
-Z114 w1363554827
-Z115 8C:/Users/Adam/Documents/GitHub/wiscsp13/mux2_1.v
-Z116 FC:/Users/Adam/Documents/GitHub/wiscsp13/mux2_1.v
+Z152 w1363554827
+Z153 8C:/Users/Adam/Documents/GitHub/wiscsp13/mux2_1.v
+Z154 FC:/Users/Adam/Documents/GitHub/wiscsp13/mux2_1.v
 L0 1
-R9
+R8
 r1
 31
-Z117 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/mux2_1.v|
-R11
-Z118 !s108 1363759626.674000
-Z119 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/mux2_1.v|
+Z155 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/mux2_1.v|
+R9
+Z156 !s108 1363761516.517000
+Z157 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/mux2_1.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vmux4_1
-R23
-Z120 !s100 >g05Qn=g2bnglaWe@CTG82
-Z121 Ia[7d6USfN1YS2>Sgc;g1o0
+R31
+Z158 !s100 >g05Qn=g2bnglaWe@CTG82
+Z159 Ia[7d6USfN1YS2>Sgc;g1o0
+R3
 R4
-R5
-Z122 w1363554779
-Z123 8C:/Users/Adam/Documents/GitHub/wiscsp13/mux4_1.v
-Z124 FC:/Users/Adam/Documents/GitHub/wiscsp13/mux4_1.v
+Z160 w1363554779
+Z161 8C:/Users/Adam/Documents/GitHub/wiscsp13/mux4_1.v
+Z162 FC:/Users/Adam/Documents/GitHub/wiscsp13/mux4_1.v
 L0 1
-R9
+R8
 r1
 31
-Z125 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/mux4_1.v|
-R11
-Z126 !s108 1363759626.734000
-Z127 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/mux4_1.v|
+Z163 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/mux4_1.v|
+R9
+Z164 !s108 1363761516.579000
+Z165 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/mux4_1.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux_16w_2_1
+R1
+Z166 IcWR]HlN@`@7Xa3_aXI10z2
+R3
+R4
+Z167 w1361299614
+Z168 8C:/Users/Adam/Documents/GitHub/wiscsp13/mux_16w_2_1.v
+Z169 FC:/Users/Adam/Documents/GitHub/wiscsp13/mux_16w_2_1.v
+L0 1
+R8
+r1
+31
+R9
+Z170 !s100 E;R3ig`MfWKA?:e?HZe]o3
+Z171 !s108 1363761517.967000
+Z172 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/mux_16w_2_1.v|
+Z173 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/mux_16w_2_1.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vproc
-R23
-Z128 !s100 1QoX;Y[Lm>0TF:4GQ_6XM1
-Z129 IeU5OeEnHXUm_RI:RAZkZW2
+Z174 I3N_f6V51DSmiEQh?EgLf;2
+R3
 R4
-R5
-Z130 w1363677782
-Z131 8C:/Users/Adam/Documents/GitHub/wiscsp13/proc.v
-Z132 FC:/Users/Adam/Documents/GitHub/wiscsp13/proc.v
+Z175 w1363761535
+Z176 8C:/Users/Adam/Documents/GitHub/wiscsp13/proc.v
+Z177 FC:/Users/Adam/Documents/GitHub/wiscsp13/proc.v
 L0 4
-R9
+R8
 r1
 31
-Z133 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/proc.v|
-R11
-Z134 !s108 1363759626.452000
-Z135 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/proc.v|
+Z178 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/proc.v|
+R9
+Z179 !s110 1363761542
+Z180 !s100 _UPYQWL^DYBhA:^fniTf;2
+Z181 !s108 1363761542.935000
+Z182 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/proc.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vproc_hier
-R23
-Z136 !s100 N6klEbWLOlYQi:o@hiMA31
-Z137 IJmI]heD=SK[U2aAMc78BR3
+R31
+Z183 !s100 N6klEbWLOlYQi:o@hiMA31
+Z184 IJmI]heD=SK[U2aAMc78BR3
+R3
 R4
-R5
-Z138 w1363675674
-Z139 8C:/Users/Adam/Documents/GitHub/wiscsp13/proc_hier.v
-Z140 FC:/Users/Adam/Documents/GitHub/wiscsp13/proc_hier.v
+Z185 w1363675674
+Z186 8C:/Users/Adam/Documents/GitHub/wiscsp13/proc_hier.v
+Z187 FC:/Users/Adam/Documents/GitHub/wiscsp13/proc_hier.v
 L0 6
-R9
+R8
 r1
 31
-Z141 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/proc_hier.v|
-R11
-Z142 !s108 1363759626.392000
-Z143 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/proc_hier.v|
+Z188 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/proc_hier.v|
+R9
+Z189 !s108 1363761516.277000
+Z190 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/proc_hier.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vproc_hier_bench
-R23
-Z144 !s100 IVlcmH?[JWio@^MdS=:H93
-Z145 I@kDdiMn_RPjnYjHYifUaC0
+R31
+Z191 !s100 IVlcmH?[JWio@^MdS=:H93
+Z192 I@kDdiMn_RPjnYjHYifUaC0
+R3
 R4
-R5
-Z146 w1363675777
-Z147 8C:/Users/Adam/Documents/GitHub/wiscsp13/proc_hier_bench.v
-Z148 FC:/Users/Adam/Documents/GitHub/wiscsp13/proc_hier_bench.v
+Z193 w1363675777
+Z194 8C:/Users/Adam/Documents/GitHub/wiscsp13/proc_hier_bench.v
+Z195 FC:/Users/Adam/Documents/GitHub/wiscsp13/proc_hier_bench.v
 L0 4
-R9
+R8
 r1
 31
-Z149 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/proc_hier_bench.v|
-R11
-Z150 !s108 1363759626.515000
-Z151 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/proc_hier_bench.v|
+Z196 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/proc_hier_bench.v|
+R9
+Z197 !s108 1363761516.392000
+Z198 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/proc_hier_bench.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vreg16b
-R23
-Z152 !s100 5Z3A4UCSiNO5>fZ_bMUH70
-Z153 I7@4a_P<bf`Ln>0O[JbZLa3
+R31
+Z199 !s100 5Z3A4UCSiNO5>fZ_bMUH70
+Z200 I7@4a_P<bf`Ln>0O[JbZLa3
+R3
 R4
-R5
-Z154 w1363555285
-Z155 8C:/Users/Adam/Documents/GitHub/wiscsp13/reg16b.v
-Z156 FC:/Users/Adam/Documents/GitHub/wiscsp13/reg16b.v
+Z201 w1363555285
+Z202 8C:/Users/Adam/Documents/GitHub/wiscsp13/reg16b.v
+Z203 FC:/Users/Adam/Documents/GitHub/wiscsp13/reg16b.v
 L0 1
-R9
+R8
 r1
 31
-Z157 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/reg16b.v|
-R11
-Z158 !s108 1363759626.796000
-Z159 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/reg16b.v|
+Z204 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/reg16b.v|
+R9
+Z205 !s108 1363761516.641000
+Z206 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/reg16b.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vrf
-R23
-Z160 !s100 5R3?b<XZ^1eMLGbYES?<U1
-Z161 IG=35:^1`jE4TbI^j3mLSm2
+R31
+Z207 !s100 5R3?b<XZ^1eMLGbYES?<U1
+Z208 IG=35:^1`jE4TbI^j3mLSm2
+R3
 R4
-R5
-Z162 w1363550175
-Z163 8C:/Users/Adam/Documents/GitHub/wiscsp13/rf.v
-Z164 FC:/Users/Adam/Documents/GitHub/wiscsp13/rf.v
+Z209 w1363550175
+Z210 8C:/Users/Adam/Documents/GitHub/wiscsp13/rf.v
+Z211 FC:/Users/Adam/Documents/GitHub/wiscsp13/rf.v
 L0 4
-R9
+R8
 r1
 31
-Z165 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/rf.v|
-R11
-Z166 !s108 1363759626.860000
-Z167 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/rf.v|
+Z212 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/rf.v|
+R9
+Z213 !s108 1363761516.705000
+Z214 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/rf.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vrf_bypass
-R23
-Z168 !s100 F0;G86^94h9:k:hTcQAjH3
-Z169 I_f_MjZR0CmQ>47Ec^d8^A3
+R31
+Z215 !s100 F0;G86^94h9:k:hTcQAjH3
+Z216 I_f_MjZR0CmQ>47Ec^d8^A3
+R3
 R4
-R5
-Z170 w1363550996
-Z171 8C:/Users/Adam/Documents/GitHub/wiscsp13/rf_bypass.v
-Z172 FC:/Users/Adam/Documents/GitHub/wiscsp13/rf_bypass.v
+Z217 w1363550996
+Z218 8C:/Users/Adam/Documents/GitHub/wiscsp13/rf_bypass.v
+Z219 FC:/Users/Adam/Documents/GitHub/wiscsp13/rf_bypass.v
 L0 4
-R9
+R8
 r1
 31
-Z173 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/rf_bypass.v|
-R11
-Z174 !s108 1363759626.923000
-Z175 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/rf_bypass.v|
+Z220 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/rf_bypass.v|
+R9
+Z221 !s108 1363761516.765000
+Z222 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/rf_bypass.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vright_logical
+Z223 IYZ^?bmI1;@Vg4XciDOfJ<0
+R3
+R4
+Z224 w1361259506
+Z225 8C:/Users/Adam/Documents/GitHub/wiscsp13/right_logical.v
+Z226 FC:/Users/Adam/Documents/GitHub/wiscsp13/right_logical.v
+L0 1
+R8
+r1
+31
+R9
+Z227 !s110 1363761518
+Z228 !s100 gJZmZ?;;::bVLk8L]R>BS3
+Z229 !s108 1363761518.032000
+Z230 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/right_logical.v|
+Z231 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/right_logical.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vright_logical1
+R227
+Z232 IlzC<<PW;j>UD>eb1g<l=N2
+R3
+R4
+Z233 w1363751378
+Z234 8C:/Users/Adam/Documents/GitHub/wiscsp13/right_logical1.v
+Z235 FC:/Users/Adam/Documents/GitHub/wiscsp13/right_logical1.v
+L0 2
+R8
+r1
+31
+R9
+Z236 !s100 oEV>X8;Rlc9FSOPgFakW72
+Z237 !s108 1363761518.096000
+Z238 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/right_logical1.v|
+Z239 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/right_logical1.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vright_logical2
+R227
+Z240 IVQAOnYSJ2H;g[2RBaCGZ60
+R3
+R4
+Z241 w1363751384
+Z242 8C:/Users/Adam/Documents/GitHub/wiscsp13/right_logical2.v
+Z243 FC:/Users/Adam/Documents/GitHub/wiscsp13/right_logical2.v
+L0 2
+R8
+r1
+31
+R9
+Z244 !s100 FT_IB8dThF[d1LIzYc6zm1
+Z245 !s108 1363761518.159000
+Z246 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/right_logical2.v|
+Z247 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/right_logical2.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vright_logical4
+R227
+Z248 Ii<CaPV?jcY@M@=S:73KLl2
+R3
+R4
+R224
+Z249 8C:/Users/Adam/Documents/GitHub/wiscsp13/right_logical4.v
+Z250 FC:/Users/Adam/Documents/GitHub/wiscsp13/right_logical4.v
+L0 2
+R8
+r1
+31
+R9
+Z251 !s100 cA<0dlN`H01?2_oiM]7=K3
+Z252 !s108 1363761518.222000
+Z253 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/right_logical4.v|
+Z254 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/right_logical4.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vright_logical8
+R227
+Z255 I3N92<gOSW>MLF]i@z49XK3
+R3
+R4
+R224
+Z256 8C:/Users/Adam/Documents/GitHub/wiscsp13/right_logical8.v
+Z257 FC:/Users/Adam/Documents/GitHub/wiscsp13/right_logical8.v
+L0 2
+R8
+r1
+31
+R9
+Z258 !s100 ZO1=8Q2LTVE81iYBlHB8F0
+Z259 !s108 1363761518.281000
+Z260 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/right_logical8.v|
+Z261 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/right_logical8.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vright_rotate
+R227
+Z262 I=G]SXlOTBg`P8^M[KjBXn0
+R3
+R4
+Z263 w1363751212
+Z264 8C:/Users/Adam/Documents/GitHub/wiscsp13/right_rotate.v
+Z265 FC:/Users/Adam/Documents/GitHub/wiscsp13/right_rotate.v
+L0 1
+R8
+r1
+31
+R9
+Z266 !s100 @nDTF=_n0b@zSF9LboT0?2
+Z267 !s108 1363761518.343000
+Z268 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/right_rotate.v|
+Z269 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/right_rotate.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vright_rotate1
+R227
+Z270 IG:L1V@HSX1CP8;MCYlXE;2
+R3
+R4
+Z271 w1363751156
+Z272 8C:/Users/Adam/Documents/GitHub/wiscsp13/right_rotate1.v
+Z273 FC:/Users/Adam/Documents/GitHub/wiscsp13/right_rotate1.v
+L0 2
+R8
+r1
+31
+R9
+Z274 !s100 =k:2SB;lk;OaE9JXg6UVi0
+Z275 !s108 1363761518.406000
+Z276 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/right_rotate1.v|
+Z277 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/right_rotate1.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vright_rotate2
+R227
+Z278 IULIZg8nm?aD?g^OkJO_j=0
+R3
+R4
+Z279 w1363751422
+Z280 8C:/Users/Adam/Documents/GitHub/wiscsp13/right_rotate2.v
+Z281 FC:/Users/Adam/Documents/GitHub/wiscsp13/right_rotate2.v
+L0 2
+R8
+r1
+31
+R9
+Z282 !s100 cJeRe:4OAiSCmNTIGl<_h2
+Z283 !s108 1363761518.469000
+Z284 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/right_rotate2.v|
+Z285 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/right_rotate2.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vright_rotate4
+R227
+Z286 II@nC^:jN>QeAB0da5n`HQ0
+R3
+R4
+Z287 w1363751448
+Z288 8C:/Users/Adam/Documents/GitHub/wiscsp13/right_rotate4.v
+Z289 FC:/Users/Adam/Documents/GitHub/wiscsp13/right_rotate4.v
+L0 2
+R8
+r1
+31
+R9
+Z290 !s100 bFnDn1Z?GA0BCFVdC:QC?2
+Z291 !s108 1363761518.531000
+Z292 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/right_rotate4.v|
+Z293 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/right_rotate4.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vright_rotate8
+R227
+Z294 I8;@U<WmiJ6f?izE0_27>Y3
+R3
+R4
+Z295 w1363751484
+Z296 8C:/Users/Adam/Documents/GitHub/wiscsp13/right_rotate8.v
+Z297 FC:/Users/Adam/Documents/GitHub/wiscsp13/right_rotate8.v
+L0 2
+R8
+r1
+31
+R9
+Z298 !s100 9;3lkhZ;:[XOmCaNGCjh52
+Z299 !s108 1363761518.593000
+Z300 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/right_rotate8.v|
+Z301 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/right_rotate8.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vrotate_left
+R227
+Z302 I_PE`mmVSALUkm^@YI?]O;0
+R3
+R4
+R224
+Z303 8C:/Users/Adam/Documents/GitHub/wiscsp13/rotate_left.v
+Z304 FC:/Users/Adam/Documents/GitHub/wiscsp13/rotate_left.v
+L0 1
+R8
+r1
+31
+R9
+Z305 !s100 1SBo55:g?mHJeOjDcW9da2
+Z306 !s108 1363761518.656000
+Z307 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/rotate_left.v|
+Z308 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/rotate_left.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vrotate_left1
+R227
+Z309 IKQoZJICDN8Z4Hf7FgC5So1
+R3
+R4
+Z310 w1361259508
+Z311 8C:/Users/Adam/Documents/GitHub/wiscsp13/rotate_left1.v
+Z312 FC:/Users/Adam/Documents/GitHub/wiscsp13/rotate_left1.v
+L0 1
+R8
+r1
+31
+R9
+Z313 !s100 1hZ5@H`k=DnQTTa6Bm`zV0
+Z314 !s108 1363761518.720000
+Z315 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/rotate_left1.v|
+Z316 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/rotate_left1.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vrotate_left2
+R227
+Z317 Ii8QdXhX`:laO`ToT_@L@X2
+R3
+R4
+R310
+Z318 8C:/Users/Adam/Documents/GitHub/wiscsp13/rotate_left2.v
+Z319 FC:/Users/Adam/Documents/GitHub/wiscsp13/rotate_left2.v
+L0 1
+R8
+r1
+31
+R9
+Z320 !s100 DZ@M:6cPkjjC1]2a6NhnA2
+Z321 !s108 1363761518.780000
+Z322 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/rotate_left2.v|
+Z323 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/rotate_left2.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vrotate_left4
+R227
+Z324 IDO3e^0>;gHil;oGEKl67E3
+R3
+R4
+R310
+Z325 8C:/Users/Adam/Documents/GitHub/wiscsp13/rotate_left4.v
+Z326 FC:/Users/Adam/Documents/GitHub/wiscsp13/rotate_left4.v
+L0 1
+R8
+r1
+31
+R9
+Z327 !s100 7>?NL0n=@RiX]0SdFF?Tj2
+Z328 !s108 1363761518.844000
+Z329 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/rotate_left4.v|
+Z330 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/rotate_left4.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vrotate_left8
+R227
+Z331 I>BMfd2aNIVg;U_7mj0MjL1
+R3
+R4
+R310
+Z332 8C:/Users/Adam/Documents/GitHub/wiscsp13/rotate_left8.v
+Z333 FC:/Users/Adam/Documents/GitHub/wiscsp13/rotate_left8.v
+L0 1
+R8
+r1
+31
+R9
+Z334 !s100 6XaIaS]KU=UXXz;aRmTzM3
+Z335 !s108 1363761518.907000
+Z336 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/rotate_left8.v|
+Z337 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/rotate_left8.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vshift_left
+R227
+Z338 I7A7ZJ5hzVPNSWPiSf>fVF3
+R3
+R4
+R310
+Z339 8C:/Users/Adam/Documents/GitHub/wiscsp13/shift_left.v
+Z340 FC:/Users/Adam/Documents/GitHub/wiscsp13/shift_left.v
+L0 1
+R8
+r1
+31
+R9
+Z341 !s100 8i7_fTIJH@_44@=PiE9ec2
+Z342 !s108 1363761518.969000
+Z343 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/shift_left.v|
+Z344 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/shift_left.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vshift_left1
+Z345 IY9YdnJK?VczY[:SamGS872
+R3
+R4
+R310
+Z346 8C:/Users/Adam/Documents/GitHub/wiscsp13/shift_left1.v
+Z347 FC:/Users/Adam/Documents/GitHub/wiscsp13/shift_left1.v
+L0 1
+R8
+r1
+31
+R9
+Z348 !s110 1363761519
+Z349 !s100 FTS@m6Dmi_SbUj:NS7<K63
+Z350 !s108 1363761519.031000
+Z351 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/shift_left1.v|
+Z352 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/shift_left1.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vshift_left2
+R348
+Z353 IYP>I_^Rn:aK1FdM]EMXE<3
+R3
+R4
+R310
+Z354 8C:/Users/Adam/Documents/GitHub/wiscsp13/shift_left2.v
+Z355 FC:/Users/Adam/Documents/GitHub/wiscsp13/shift_left2.v
+L0 1
+R8
+r1
+31
+R9
+Z356 !s100 So6BJ]:7CQkJDSVFBUJ4^3
+Z357 !s108 1363761519.096000
+Z358 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/shift_left2.v|
+Z359 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/shift_left2.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vshift_left4
+R348
+Z360 I1O8PiN^a@_<6_a6>7ih0<1
+R3
+R4
+R310
+Z361 8C:/Users/Adam/Documents/GitHub/wiscsp13/shift_left4.v
+Z362 FC:/Users/Adam/Documents/GitHub/wiscsp13/shift_left4.v
+L0 1
+R8
+r1
+31
+R9
+Z363 !s100 AYRIPfV`THJWI]mX]>LW42
+Z364 !s108 1363761519.159000
+Z365 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/shift_left4.v|
+Z366 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/shift_left4.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vshift_left8
+R348
+Z367 IR1cP@QKBiFOn4X^2lfnUz1
+R3
+R4
+R310
+Z368 8C:/Users/Adam/Documents/GitHub/wiscsp13/shift_left8.v
+Z369 FC:/Users/Adam/Documents/GitHub/wiscsp13/shift_left8.v
+L0 1
+R8
+r1
+31
+R9
+Z370 !s100 7IIT0c<bc27XS8>B0EU<G3
+Z371 !s108 1363761519.223000
+Z372 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/shift_left8.v|
+Z373 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/shift_left8.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vshifter
+R348
+Z374 I=V]GgH5XP:f>N:iTFfaD[3
+R3
+R4
+Z375 w1363751314
+Z376 8C:/Users/Adam/Documents/GitHub/wiscsp13/shifter.v
+Z377 FC:/Users/Adam/Documents/GitHub/wiscsp13/shifter.v
+L0 1
+R8
+r1
+31
+R9
+Z378 !s100 @CVNAoHGG3D^7ULaC;]0;0
+Z379 !s108 1363761519.286000
+Z380 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/shifter.v|
+Z381 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/shifter.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vsixteenmux2_1
 R1
-Z176 !s100 aX8;^GLE@>_6SNXmnQYRY1
-Z177 I`a^@nJ;Gh1MiTIAE0JEhz2
+Z382 !s100 aX8;^GLE@>_6SNXmnQYRY1
+Z383 I`a^@nJ;Gh1MiTIAE0JEhz2
+R3
 R4
-R5
-Z178 w1363680686
-Z179 8C:/Users/Adam/Documents/GitHub/wiscsp13/sixteenmux2_1.v
-Z180 FC:/Users/Adam/Documents/GitHub/wiscsp13/sixteenmux2_1.v
+Z384 w1363680686
+Z385 8C:/Users/Adam/Documents/GitHub/wiscsp13/sixteenmux2_1.v
+Z386 FC:/Users/Adam/Documents/GitHub/wiscsp13/sixteenmux2_1.v
 L0 1
-R9
+R8
 r1
 31
-Z181 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/sixteenmux2_1.v|
-R11
-Z182 !s108 1363759627.482000
-Z183 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/sixteenmux2_1.v|
+Z387 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/sixteenmux2_1.v|
+R9
+Z388 !s108 1363761517.260000
+Z389 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/sixteenmux2_1.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vsixteenmux4_1
-Z184 !s100 k3CDSa;Fkn>hdhUb`Bk4L1
-Z185 If=@gY^9D<hi9PJZJBf^W70
+R31
+Z390 !s100 k3CDSa;Fkn>hdhUb`Bk4L1
+Z391 If=@gY^9D<hi9PJZJBf^W70
+R3
 R4
-R5
-Z186 w1363554733
-Z187 8C:/Users/Adam/Documents/GitHub/wiscsp13/sixteenmux4_1.v
-Z188 FC:/Users/Adam/Documents/GitHub/wiscsp13/sixteenmux4_1.v
+Z392 w1363554733
+Z393 8C:/Users/Adam/Documents/GitHub/wiscsp13/sixteenmux4_1.v
+Z394 FC:/Users/Adam/Documents/GitHub/wiscsp13/sixteenmux4_1.v
 L0 1
-R9
+R8
 r1
 31
-Z189 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/sixteenmux4_1.v|
-R11
-R1
-Z190 !s108 1363759626.983000
-Z191 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/sixteenmux4_1.v|
+Z395 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/sixteenmux4_1.v|
+R9
+Z396 !s108 1363761516.826000
+Z397 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/sixteenmux4_1.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vsixteenmux8_1
-R1
-Z192 !s100 B0D<;?K<33I`SKjn^Ro?S2
-Z193 IjJK2za0YcUcGoWBVoY^J=0
+R31
+Z398 !s100 B0D<;?K<33I`SKjn^Ro?S2
+Z399 IjJK2za0YcUcGoWBVoY^J=0
+R3
 R4
-R5
-Z194 w1363554696
-Z195 8C:/Users/Adam/Documents/GitHub/wiscsp13/sixteenmux8_1.v
-Z196 FC:/Users/Adam/Documents/GitHub/wiscsp13/sixteenmux8_1.v
+Z400 w1363554696
+Z401 8C:/Users/Adam/Documents/GitHub/wiscsp13/sixteenmux8_1.v
+Z402 FC:/Users/Adam/Documents/GitHub/wiscsp13/sixteenmux8_1.v
 L0 1
-R9
+R8
 r1
 31
-Z197 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/sixteenmux8_1.v|
-R11
-Z198 !s108 1363759627.046000
-Z199 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/sixteenmux8_1.v|
+Z403 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/sixteenmux8_1.v|
+R9
+Z404 !s108 1363761516.889000
+Z405 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/sixteenmux8_1.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsum
+R348
+Z406 IO>nIHFbeCoF@bB]g8X2E90
+R3
+R4
+Z407 w1361298372
+Z408 8C:/Users/Adam/Documents/GitHub/wiscsp13/sum.v
+Z409 FC:/Users/Adam/Documents/GitHub/wiscsp13/sum.v
+L0 1
+R8
+r1
+31
+R9
+Z410 !s100 e]adzOiIEhb=;JMEmOobD0
+Z411 !s108 1363761519.349000
+Z412 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/sum.v|
+Z413 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/sum.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vwb
-!s110 1363760490
-!i10b 1
-!s100 JIj[KNh2Sf@UB4=gbg2NI1
-ISIi5_ZEmzT?J5MaM]RGW30
+R1
+Z414 !s100 JIj[KNh2Sf@UB4=gbg2NI1
+Z415 ISIi5_ZEmzT?J5MaM]RGW30
+R3
 R4
-R5
-w1363760487
-Z200 8C:/Users/Adam/Documents/GitHub/wiscsp13/wb.v
-Z201 FC:/Users/Adam/Documents/GitHub/wiscsp13/wb.v
+Z416 w1363760487
+Z417 8C:/Users/Adam/Documents/GitHub/wiscsp13/wb.v
+Z418 FC:/Users/Adam/Documents/GitHub/wiscsp13/wb.v
 L0 1
-R9
+R8
 r1
-!s85 0
 31
-!s108 1363760490.545000
-!s107 C:/Users/Adam/Documents/GitHub/wiscsp13/wb.v|
-Z202 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/wb.v|
+Z419 !s90 -reportprogress|300|-work|work|C:/Users/Adam/Documents/GitHub/wiscsp13/wb.v|
+R9
+Z420 !s108 1363761517.076000
+Z421 !s107 C:/Users/Adam/Documents/GitHub/wiscsp13/wb.v|
+!i10b 1
+!s85 0
 !s101 -O0
-R11
