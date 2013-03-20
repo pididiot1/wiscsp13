@@ -1,11 +1,11 @@
 module infetch(
                 //Input
-                clk, rst, jumprsel, brjsel, imm, register,
+                clk, rst, jumprsel, brjsel, halt, imm, register,
                 //Output
                 err, pc2, instr
                 );
   
-  input clk, rst, jumprsel, brjsel;
+  input clk, rst, jumprsel, brjsel, halt;
   input [15:0] imm, register;
   
   output err;
@@ -16,7 +16,7 @@ module infetch(
   //PC Register
   reg16b pc(
                 //Input
-                .writeData(nextPC), .writeEn(1'b1), .clk(clk), .rst(rst),
+                .writeData(nextPC), .writeEn(halt), .clk(clk), .rst(rst),
                 //Output
                 .readData(currPC)
                 );
@@ -43,5 +43,7 @@ module infetch(
                 //Output
                 .Out(nextPC)
                 );
+//TEMPORARY ASSIGN
+//later will be overflow on 16bFA
 assign err = 1'b0;
 endmodule

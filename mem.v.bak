@@ -1,7 +1,12 @@
 module mem(clk, rst, data_in, addr, enable, wr, createdump, data_out);
   
-  input clk, rst, enable, wr, createdump;
-  input [15:0] data_in, addr;
+  //proc inputs
+  input clk, rst;
+  //id inputs
+  input enable, wr, createdump;
+  input [15:0] data_in;
+  //ex inputs
+  input [15:0] addr;
   
   output [15:0] data_out;
   

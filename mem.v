@@ -1,4 +1,9 @@
-module mem(clk, rst, data_in, addr, enable, wr, createdump, data_out);
+module mem(
+          //Inputs
+          clk, rst, data_in, addr, enable, wr, createdump,
+          //Outputs
+          data_out
+          );
   
   //proc inputs
   input clk, rst;

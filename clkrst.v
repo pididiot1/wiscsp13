@@ -1,6 +1,4 @@
-
-<!-- saved from url=(0087)http://pages.cs.wisc.edu/~karu/courses/cs552/spring2013//handouts/verilog_code/clkrst.v -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">/* $Author: karu $ */
+/* $Author: karu $ */
 /* $LastChangedDate: 2009-03-04 23:09:45 -0600 (Wed, 04 Mar 2009) $ */
 /* $Rev: 45 $ */
 // clock and reset generator
@@ -31,14 +29,14 @@ module clkrst (clk, rst, err);
 
     always #50 begin   // delay 1/2 clock period each time thru loop
       clk = ~clk;
-      if (clk &amp; err) begin
+      if (clk & err) begin
         $display("Error signal asserted");
         $stop;
       end
     end
     always @(posedge clk) begin
     	cycle_count = cycle_count + 1;
-	if (cycle_count &gt; 100000) begin
+	if (cycle_count > 100000) begin
 		$display("hmm....more than 100000 cycles of simulation...error?\n");
 		$finish;
 	end
@@ -46,5 +44,3 @@ module clkrst (clk, rst, err);
 
 
 endmodule
-// DUMMY LINE FOR REV CONTROL :0:
-</pre></body></html>

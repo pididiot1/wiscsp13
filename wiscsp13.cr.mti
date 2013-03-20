@@ -1,4 +1,7 @@
-C:/Users/Adam/Documents/GitHub/wiscsp13/sixteenmux4_1.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/sixteenmux4_1.v
+C:/Users/Adam/Documents/GitHub/wiscsp13/inc2b.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/inc2b.v
+Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
+
+} {} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/sixteenmux4_1.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/sixteenmux4_1.v
 Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
 -- Compiling module sixteenmux4_1
 
@@ -19,6 +22,13 @@ Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2
 Top level modules:
 	mux4_1
 
+} {} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/idecoder.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/idecoder.v
+Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module idecoder
+
+Top level modules:
+	idecoder
+
 } {} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/reg16b.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/reg16b.v
 Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
 -- Compiling module reg16b
@@ -26,16 +36,19 @@ Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2
 Top level modules:
 	reg16b
 
-} {} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/dff.v {0 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/dff.v
+} {} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/dff.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/dff.v
 Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
-** Error: C:/Users/Adam/Documents/GitHub/wiscsp13/dff.v(2): near "<": syntax error, unexpected '<', expecting class
-
-} {3.0 4.0} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/wb.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/wb.v
-Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
--- Compiling module wb
+-- Compiling module dff
 
 Top level modules:
-	wb
+	dff
+
+} {} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/infetch.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/infetch.v
+Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module infetch
+
+Top level modules:
+	infetch
 
 } {} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/rf_bypass.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/rf_bypass.v
 Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
@@ -65,12 +78,14 @@ Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2
 Top level modules:
 	proc_hier_bench
 
-} {} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/id.v {0 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/id.v
+} {} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/id.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/id.v
 Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
 -- Compiling module id
-** Error: C:/Users/Adam/Documents/GitHub/wiscsp13/id.v(9): near ".": syntax error, unexpected '.', expecting ')'
 
-} {4.0 5.0} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/ex.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/ex.v
+Top level modules:
+	id
+
+} {} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/ex.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/ex.v
 Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
 -- Compiling module ex
 
@@ -91,6 +106,13 @@ Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2
 Top level modules:
 	ext_bench
 
+} {} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/clkrst.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/clkrst.v
+Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module clkrst
+
+Top level modules:
+	clkrst
+
 } {} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/proc_hier.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/proc_hier.v
 Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
 -- Compiling module proc_hier
@@ -98,11 +120,7 @@ Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2
 Top level modules:
 	proc_hier
 
-} {} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/clkrst.v {0 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/clkrst.v
-Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
-** Error: C:/Users/Adam/Documents/GitHub/wiscsp13/clkrst.v(2): near "<": syntax error, unexpected '<', expecting class
-
-} {3.0 4.0} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/mux2_1.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/mux2_1.v
+} {} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/mux2_1.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/mux2_1.v
 Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
 -- Compiling module mux2_1
 
@@ -115,13 +133,6 @@ Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2
 
 Top level modules:
 	dec8
-
-} {} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/proc.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/proc.v
-Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
--- Compiling module proc
-
-Top level modules:
-	proc
 
 } {} {}} C:/Users/Adam/Documents/GitHub/wiscsp13/sixteenmux2_1.v {1 {vlog -work work C:/Users/Adam/Documents/GitHub/wiscsp13/sixteenmux2_1.v
 Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013

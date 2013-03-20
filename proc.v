@@ -23,29 +23,47 @@ module proc (/*AUTOARG*/
    
    
    /* your code here */
+   
+   wire ferr, derr;
+   
    infetch fetch(
-                  //Inputs
-                  .clk(clk), .rst(rst)
-                  //Outputs
-                  );
+                //Input
+                .clk(clk), .rst(rst), jumprsel, brjsel, halt, imm, register,
+                //Output
+                .err(ferr), pc2, instr
+                );
    id decode(
-                  //Inputs
-                  .clk(clk), .rst(rst)
-                  //Outputs
-                  );
+              //Input
+              .clk(clk), .rst(rst), instr, pc2, write_data,
+              //Output
+              .error(derr),
+              //Fetch Control
+              pcregsel, brj, halt, fimm, register,
+              //Datapath Control
+              sub, src1, src2, aluctl, seq, slt, sle, sco,
+              //Memory Control
+              enable, wr, createdump, data_in,
+              //Writeback Control
+              memalusel
+              );
    ex execute(
-                  //Inputs
-                  //Outputs
-                  );
+              //Inputs
+              A, B, aluOp, Cin, setEq, setLt, setLe, setCo,
+              //Outputs
+              Out
+              );
    mem memfetch(
-                  //Inputs
-                  .clk(clk), .rst(rst)
-                  //Outputs
-                  );
+              //Inputs
+              .clk(clk), .rst(rst), data_in, addr, enable, wr, createdump,
+              //Outputs
+              data_out
+              );
    wb writeback(
-                  //Inputs
-                  //Outputs
-                  );
+              //Inputs
+              memalusel, memin, aluin,
+              //Outputs
+              out
+              );
    
 endmodule // proc
 // DUMMY LINE FOR REV CONTROL :0:
